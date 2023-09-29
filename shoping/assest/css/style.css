@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: rgb(234, 227, 227);
+}
+.contianer{
+    padding: 20px;
+    margin-top: 20px;
+}
+.products{
+    display: flex;
+    /* justify-content:; */
+    align-items: center;
+    gap:5rem;
+    flex-wrap: wrap;
+    margin:5rem 90px 0 120px;
+    margin-top: 5rem;
+    
+}
+.sea{
+    position: absolute;
+    top: 10%;
+    left: 10.5%;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.sea a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color:black;
+    background-color: rgb(249, 198, 132);
+    width: 120px;
+    height: 35px;
+    display: inline-block;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+.sea a:hover{    
+    background-color: darkcyan;
+    color: aliceblue;
+    cursor: pointer;}
+
+.card{
+    width: 300px;
+    height: 390px;
+    background-color: antiquewhite;
+    border: 1px darkslategrey solid;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(128, 128, 128,.4);
+    color: rgb(26, 19, 19);
+    transition: .7s;
+}
+.card:hover{transform: scale(1.1);
+}
+.card span{
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(28, 9, 43,.7);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.img_pro{width: 100%;
+height: 200px;
+background-position: center;
+background-size: cover;
+position: relative;
+overflow: hidden;}
+.img_pro img{width: 100%;
+height: 100%;}
+
+.card h2{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.pro_price{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.pro_price h6{
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding-top: 2px;
+}
+.icon{display: flex;
+justify-content: center;
+color: brown;
+gap: 20px;
+margin-top: 30px;
+font-size: 30px;}
+
+.up-icon{
+    background-color: rgba(47, 79, 79,.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: .7s;
+}
+.i{font-size: 25px;}
+.up-icon:hover{
+    transform: scale(1.2);
+}
+.close {
+    position: absolute;
+    right: 1rem;
+    top: .5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.close:hover {
+    color: #9A3B3B;
+}

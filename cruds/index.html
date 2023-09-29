@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <link rel="stylesheet" href="./assast/css/all.min.css">
+    <link rel="stylesheet" href="./assast/css/style.css">
+</head>
+<body>
+    <div class="contaner">
+        <h1 class="heading">CRUDS SYSTEM..!</h1>
+        <div class="item2_pro">
+            <div class="name_pro">
+                <label for="name">Product Name:</label><br>
+                <input type="text"id="name"class="input"maxlength="15">
+            </div>
+            <div class="cat_pro">
+                <label for="cat">Product Category:</label><br>
+                <input type="text"id="cat_p"class="input" maxlength="15">
+            </div>
+        </div>
+        <div class="item3_pro">
+            <div class="name_pro">
+                <label for="price">Product Price:</label><br>
+                <input type="number"id="price" class="input1">
+            </div>
+            <div class="cat_pro">
+                <label for="dis">Product Discount:</label><br>
+                <input type="number"id="dis"class="input1">
+            </div>
+            <div class="cat_pro">
+                <label for="quan">Product Quantity:</label><br>
+                <input type="number"id="quantety" class="input1">
+            </div>
+        </div>
+        <div class="desc">
+            <label for="desc">Product Description:</label><br>
+            <textarea name="" id="desc" cols="154" rows="10" ></textarea>
+            <button id="btnxx" class="btnx"> Add product</button>
+            <button class="buttonx" > update product</button>
+        </div>
+        <div class="search">
+            <input type="search" placeholder="search.....!" id="search_data" class="search_pro">
+        </div>
+        <!-- start table -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name </th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Disconut</th>
+                    <th>Quantity</th>
+                    <th>Description</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="showData">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="./assast/js/index.js"></script>
+</body>
+</html>
